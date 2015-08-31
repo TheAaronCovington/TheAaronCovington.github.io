@@ -1,11 +1,65 @@
 /* NAVBAR STYLES */
 .navbar-inverse .navbar-nav>li>a{
     color: white;
+    font-family: "Calibre";
+    font-weight: bold;
+    font-size: 1.2em;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
-    color: #6BB9F0;
+    color: #00ABEF;
 }
 .navbar-inverse .navbar-nav>li>a:focus{
-    color: #FF4D4D;
+    color: #00ABEF;
     background-color: #080807;
+}
+
+/*Section Styles*/
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+.intro {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
 }
