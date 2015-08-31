@@ -1,0 +1,11 @@
+/* NAVBAR STYLES */
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #6BB9F0;
+}
+.navbar-inverse .navbar-nav>li>a:focus{
+    color: #FF4D4D;
+    background-color: #080807;
+}
