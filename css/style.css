@@ -3,7 +3,7 @@
     color: white;
     font-family: "Calibre";
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
     color: #00ABEF;
@@ -37,26 +37,26 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #2ecc71;
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #ecf0f1;
 }
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #3498db;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #e74c3c;
 }
