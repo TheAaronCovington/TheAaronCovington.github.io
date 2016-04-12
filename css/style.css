@@ -12,6 +12,11 @@
     color: #00ABEF;
     background-color: #080807;
 }
+#logo{
+    max-height: 200%;
+    max-width: 200%;
+    padding-bottom: 1%;
+}
 
 /*Section Styles*/
 body {
