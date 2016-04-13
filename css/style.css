@@ -67,11 +67,11 @@ html {
 
 /*Social Media Icon Styles*/
 .social-slide {
-    background-image: url('img/social/image.png');
     height: 48px;
     width: 48px;
     margin: 10px;
     float: left;
+    display: inline;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
@@ -81,4 +81,19 @@ html {
 .social-slide:hover {
     background-position: 0px -48px;
     box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+.facebook{
+    background-image: url("img/social/facebook.png");
+}
+.twitter{
+    background-image: url("img/social/twitter.png");
+}
+.linkedin{
+    background-image: url("img/social/linkedin.png");
+}
+.github{
+    background-image: url("img/social/github.png");
+}
+.gmail{
+    background-image: url("img/social/gmail.png");
 }
