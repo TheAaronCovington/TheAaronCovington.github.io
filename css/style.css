@@ -17,7 +17,25 @@
     max-width: 200%;
     padding-bottom: 25%;
 }
-
+/* Styles for animated underlining */
+.sliding-middle-out{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width 1s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 100%;
+    background: red;
+}
 /*Section Styles*/
 body {
     width: 100%;
@@ -71,36 +89,46 @@ html {
 }
 .facebook{
     padding-top: 10%;
+    transition: 0.8s ease;
 }
 .facebook:hover{
     opacity: 0.7;
     padding-top: 0;
+    transition: 0.8s ease;
 }
 .twitter{
     padding-top: 10%;
+    transition: 0.8s ease;
 }
 .twitter:hover{
     opacity: 0.7;
     padding-top: 0;
+    transition: 0.8s ease;
 }
 .linkedin{
     padding-top: 10%;
+    transition: 0.8s ease;
 }
 .linkedin:hover{
     opacity: 0.7;
     padding-top: 0;
+    transition: 0.8s ease;
 }
 .github{
     padding-top: 10%;
+    transition: 0.8s ease;
 }
 .github:hover{
     opacity: 0.7;
     padding-top: 0;
+    transition: 0.8s ease;
 }
 .gmail{
     padding-top: 10%;
+    transition: 0.8s ease;
 }
 .gmail:hover{
     opacity: 0.7;
     padding-top: 0;
+    transition: 0.8s ease;
 }
