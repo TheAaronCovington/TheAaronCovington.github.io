@@ -65,21 +65,42 @@ html {
     background: #e74c3c;
 }
 
+/* Social Media Styles */
 #social-pics{
     padding-right: 0;
 }
+.facebook{
+    padding-top: 10%;
+}
 .facebook:hover{
     opacity: 0.7;
+    padding-top: 0;
+}
+.twitter{
+    padding-top: 10%;
 }
 .twitter:hover{
     opacity: 0.7;
+    padding-top: 0;
+}
+.linkedin{
+    padding-top: 10%;
 }
 .linkedin:hover{
     opacity: 0.7;
+    padding-top: 0;
+}
+.github{
+    padding-top: 10%;
 }
 .github:hover{
     opacity: 0.7;
+    padding-top: 0;
+}
+.gmail{
+    padding-top: 10%;
 }
 .gmail:hover{
     opacity: 0.7;
+    padding-top: 0;
 }
