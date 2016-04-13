@@ -68,12 +68,18 @@ html {
     text-align: center;
     background: #2ecc71;
 }
-
-.services-section {
+/*Portfolio Styles*/
+.portfolio-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #3498db;
+}
+.project{
+    height: 250px;
+    width: 250px;
+    margin: 10% 11% 0 0%;
+    background-color: white;
 }
 
 .contact-section {
