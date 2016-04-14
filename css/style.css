@@ -13,9 +13,15 @@
     background-color: #080807;
 }
 #logo{
-    max-height: 200%;
-    max-width: 200%;
-    padding-bottom: 25%;
+    border-radius: 20%;
+    height: 20%;
+    width: 20%;
+}
+#aaron{
+    color: white;
+    font-family: "Calibre";
+    font-weight: bold;
+    font-size: 1.5em;
 }
 /* Styles for animated underlining */
 .sliding-middle-out{
@@ -55,11 +61,21 @@ html {
     }
 
 }
+/*Intro Section Styles*/
 .intro {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #ecf0f1;
+    //background: #ecf0f1;
+    background-color: #222222;
+}
+header{
+    font-family: Righteous;
+    color: white;
+}
+#intro-panel{
+    background-color: #222222;
+
 }
 
 .about-section {
