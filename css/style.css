@@ -1,7 +1,7 @@
 /* NAVBAR STYLES */
 .navbar-inverse .navbar-nav>li>a{
     color: white;
-    font-family: "Comic Sans MS";
+    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -19,7 +19,7 @@
 }
 #aaron{
     color: white;
-    font-family: "Comic Sans MS";
+    font-family: 'Titillium Web', sans-serif;
     font-style: italic;
     font-size: 1.5em;
 }
