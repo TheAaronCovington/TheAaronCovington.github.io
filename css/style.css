@@ -112,16 +112,22 @@ header{
     background-color: #222222;
 }
 #contact-panel{
-    background: #ecf0f1;
+    background: #3498db;
+    //background: #ecf0f1;
     width: 40%;
     margin-left: 30%;
     border-radius: 3%;
+    opacity: 0.9;
 }
 #contact-panel:hover{
-    
-    background: #C8DCDD;
+    opacity: 1;
 }
-
+.contact-label{
+    padding: 2% 0 2% 0;
+}
+.btn-contact{
+    margin: 10% 0 10% 0;
+}
 /* Social Media Styles */
 #social-pics{
     padding-right: 0;
