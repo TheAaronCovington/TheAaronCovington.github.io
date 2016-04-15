@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +22,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand pull-left" id="aaron" href="#" title="Aaron Covington">
+            <a class="navbar-brand pull-left" id="aaron_name" href="#" title="Aaron Covington">
                 Aaron Covington
             </a>
         </div>
@@ -45,6 +46,7 @@
                     <header>
                         <h2>Aaron Covington</h2>
                         <p><h4>Fullstack Web Developer</h4></p>
+
                     </header>
                 </div>
             </div>
@@ -55,8 +57,13 @@
     <section id="about" class="about-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
+                <div class="col-md-6 col-md-offset-3" id="about_panel">
+                    <p class="about-text"><h2>About Me</h2></p>
+                    <img class="img-responsive center-block" id="aaron_img" src="img/aaron.jpg">
+                    <p class="about-text">Hello. my name is Aaron and I am a senior at Roger's State University
+                        focusing on Software Development.  I currently work full-time for Hewlett Packard Enterprises
+                        as a TPF Realtime Coverage Programmer.  In my spare time I enjoy developing web applications and
+                        solving algorithmic programming challenges. I have created this website to display samples of my work.</p>
                 </div>
             </div>
         </div>
@@ -67,7 +74,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-xs-12">
-                    <div class="thumbnail">
+                    <div class="thumbnail portfolio-project">
                         <img class="img-responsive" src="img/place1.png">
                         <div class="caption">
                             <h3 class="text-center">Placeholder Text</h3>
@@ -76,7 +83,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xs-12">
-                    <div class="thumbnail">
+                    <div class="thumbnail portfolio-project">
                         <img class="img-responsive" src="img/place2.png">
                         <div class="caption">
                             <h3 class="text-center">Placeholder Text</h3>
@@ -85,7 +92,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xs-12">
-                    <div class="thumbnail">
+                    <div class="thumbnail portfolio-project">
                         <img class="img-responsive" src="img/place3.png">
                         <div class="caption">
                             <h3 class="text-center">Placeholder Text</h3>
@@ -94,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xs-12">
-                    <div class="thumbnail">
+                    <div class="thumbnail portfolio-project">
                         <img class="img-responsive" src="img/place1.png">
                         <div class="caption">
                             <h3 class="text-center">Placeholder Text</h3>
@@ -103,7 +110,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xs-12">
-                    <div class="thumbnail">
+                    <div class="thumbnail portfolio-project">
                         <img class="img-responsive" src="img/place1.png">
                         <div class="caption">
                             <h3 class="text-center">Placeholder Text</h3>
@@ -112,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xs-12">
-                    <div class="thumbnail">
+                    <div class="thumbnail portfolio-project">
                         <img class="img-responsive" src="img/place1.png">
                         <div class="caption">
                             <h3 class="text-center">Placeholder Text</h3>
@@ -128,31 +135,27 @@
     <section id="contact" class="contact-section">
         <div class="container-fluid">
             <div class="row" id="contact-panel">
+                <h2 class="contact-title">Contact Me</h2>
                 <div class="col-md-6 col-md-offset-3">
-                    <label class="contact-label" for="form_name">Firstname *</label>
                     <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *"
                      required="required">
                 </div>
                 
                 <div class="col-md-6 col-md-offset-3">
-                <label class="contact-label" for="form_lastname">Lastname *</label>
                 <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *"
                      required="required">
                 </div>
                 
                 <div class="col-md-6 col-md-offset-3">
-                    <label class="contact-label" for="form_email">Email *</label>
                     <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" 
                         required="required">
                 </div>
                 
                 <div class="col-md-6 col-md-offset-3">
-                    <label class="contact-label" for="form_phone">Phone</label>
                     <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
                 </div>
                 
                 <div class="col-md-6 col-md-offset-3">
-                    <label class="contact-label" for="form_message">Message *</label>
                     <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" 
                     required="required"></textarea>
                 </div>

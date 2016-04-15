@@ -6,23 +6,24 @@
     font-size: 1.5em;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
-    color: #00ABEF;
+    color: #2ecc71;
 }
 .navbar-inverse .navbar-nav>li>a:focus{
-    color: #00ABEF;
-    background-color: #080807;
+    color: #ff1a1a;
 }
+
 #logo{
     border-radius: 20%;
     height: 20%;
     width: 20%;
 }
-#aaron{
+#aaron_name{
     color: white;
     font-family: 'Titillium Web', sans-serif;
     font-style: italic;
     font-size: 1.5em;
 }
+
 /* Styles for animated underlining */
 .sliding-middle-out{
     display: inline-block;
@@ -40,7 +41,7 @@
 }
 .sliding-middle-out:hover:after {
     width: 100%;
-    background: red;
+    background: #ff1a1a;
 }
 /*Section Styles*/
 body {
@@ -81,25 +82,58 @@ header{
 
 }
 
+
+/*About Seciton Styles*/
 .about-section {
     min-height: 100%;
     max-height: 200%;
     height: auto !important;
-    
     padding-top: 150px;
     text-align: center;
-    background: #2ecc71;
+    background-color: #222222;
 }
+#about_panel{
+    background-color: #F3F3F3;
+    width: 40%;
+    font-family: 'Hind', sans-serif;
+    font-size: 1.2em;
+    margin-left: 30%;
+    -webkit-border-radius: 6%;
+}
+#aaron_img{
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+}
+#aaron_img:hover{
+
+}
+
+
+
 /*Portfolio Styles*/
 .portfolio-section {
     min-height: 100%;
     max-height: 300%;
     height: auto !important;
-    
     padding-top: 150px;
     text-align: center;
-    background: #3498db;
+    background-color: #222222;
 }
+.portfolio-project{
+    border-radius: 5%;
+    background-color: #2F2F31;
+    border: 5px solid transparent;
+}
+.portfolio-project:hover{
+    border: 5px solid #4d94ff;
+}
+.thumbnail{
+    width: 70%;
+    margin-left: 15%;
+}
+
+
 
 /*Contact Styles*/
 .contact-section {
@@ -112,22 +146,26 @@ header{
     background-color: #222222;
 }
 #contact-panel{
-    background: #3498db;
+    background: #80c1ff;
     //background: #ecf0f1;
     width: 40%;
     margin-left: 30%;
-    border-radius: 3%;
-    opacity: 0.9;
+    -webkit-border-radius: 6%;
+    font-family: Permanent Marker;
 }
 #contact-panel:hover{
     opacity: 1;
 }
-.contact-label{
-    padding: 2% 0 2% 0;
-}
 .btn-contact{
     margin: 10% 0 10% 0;
 }
+.form-control{
+    margin-top: 10%;
+    -webkit-border-radius: 10px;
+}
+
+
+
 /* Social Media Styles */
 #social-pics{
     padding-right: 0;
