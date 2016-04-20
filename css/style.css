@@ -131,12 +131,36 @@ header{
     border: 5px solid #4d94ff;
 }
 .thumbnail{
-    min-height: 100%
+    min-height: 150%
     min-width: 100%;
     width: 70%;
     margin-left: 15%;
 }
-
+span.text-content{
+    background: rgba(0,0,0,0.5);
+    color: white !important;
+    cursor: pointer;
+    display: table;
+    position: absolute;
+    margin: -33% 20% 0 6%;
+    max-width: 50%;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.img-hover:hover span.text-content{
+    opacity: 1 !important;
+}
+.proj-desc{
+    color: white !important;
+}
 
 
 /*Contact Styles*/
