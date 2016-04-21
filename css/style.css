@@ -126,24 +126,27 @@ header{
     border-radius: 5%;
     background-color: #2F2F31;
     border: 5px solid transparent;
+    width: 60%;
 }
 .portfolio-project:hover{
     border: 5px solid #4d94ff;
 }
-.thumbnail{
-    min-height: 150%
-    min-width: 100%;
-    width: 70%;
-    margin-left: 15%;
+.portfolio-project a img{
+    width: 100%;
+}
+.portfolio-project a span{
+    width: 50%;
+}
+.row{
+    margin-left: 7%;
 }
 span.text-content{
-    background: rgba(0,0,0,0.5);
     color: white !important;
     cursor: pointer;
     display: table;
     position: absolute;
-    margin: -33% 20% 0 6%;
-    max-width: 50%;
+    margin: -33% 20% 0 0%;
+    max-width: 100%;
     opacity: 0;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
@@ -155,6 +158,7 @@ span.text-content span {
   text-align: center;
   vertical-align: middle;
 }
+
 .img-hover:hover span.text-content{
     opacity: 1 !important;
 }
