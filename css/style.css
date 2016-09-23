@@ -146,7 +146,7 @@ span.text-content{
     cursor: pointer;
     display: table;
     position: absolute;
-    margin: -33% 20% 0 0%;
+    margin: -40% 20% 0 10%;
     max-width: 100%;
     opacity: 0;
     -webkit-transition: opacity 500ms;

@@ -59,4 +59,14 @@ $(document).ready(function(){
 	}, function(){
 		$(this).css('opacity', '1');
 	});
+	$('#span7').hover(function(){
+		$("#img7").css('opacity', '0.2');	
+	}, function(){
+		$("#img7").css('opacity', '1');
+	});
+	$('#img7').hover(function(){
+		$(this).css('opacity', '0.2');	
+	}, function(){
+		$(this).css('opacity', '1');
+	});
 });
