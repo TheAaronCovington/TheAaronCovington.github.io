@@ -126,7 +126,8 @@ header{
     border-radius: 5%;
     background-color: #2F2F31;
     border: 5px solid transparent;
-    width: 60%;
+    width: 80%;
+    min-width: 80% !important;
 }
 .portfolio-project:hover{
     border: 5px solid #4d94ff;
